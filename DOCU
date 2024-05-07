@@ -1,0 +1,9 @@
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+npm install -g npm@latest
+
+npm install -g @vue/cli  
+
+docker build -t vue -f Dockerfile .    - lanzar el docker file de vue
+
+docker-compose up -d --build  - lanzar el yaml
